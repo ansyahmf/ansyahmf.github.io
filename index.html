@@ -1,489 +1,652 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <title>Mohamad Firdiansyah | Portfolio & Digital Exploration</title>
     <meta name="title" content="Mohamad Firdiansyah | Portfolio" />
-    <meta name="description"
-        content="Official portfolio of Mohamad Firdiansyah. Showcasing selected works, software engineering solutions, and web/application development exploration." />
+    <meta
+      name="description"
+      content="Official portfolio of Mohamad Firdiansyah. Showcasing selected works, software engineering solutions, and web/application development exploration."
+    />
     <meta name="author" content="Mohamad Firdiansyah" />
     <meta name="robots" content="index, follow" />
 
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://ansyahmf.github.io" />
     <meta property="og:title" content="Mohamad Firdiansyah | Portfolio" />
-    <meta property="og:description"
-        content="Official portfolio of Mohamad Firdiansyah. Showcasing selected works, software engineering solutions, and modern web development exploration." />
+    <meta
+      property="og:description"
+      content="Official portfolio of Mohamad Firdiansyah. Showcasing selected works, software engineering solutions, and modern web development exploration."
+    />
 
     <link rel="icon" type="image/x-icon" href="assets/image/favicon.png" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="assets/styles/style.css">
-</head>
+    <link rel="stylesheet" href="assets/styles/style.css" />
+  </head>
 
-<body>
+  <body>
     <nav class="nav">
-        <div class="identity">
-            <img src="assets/image/logo.png" alt="Logo">
-            <div>ANSYAHMF<span>_</span></div>
+      <div class="identity">
+        <img src="assets/image/logo.png" alt="Logo" />
+        <div>ANSYAHMF<span>_</span></div>
+      </div>
+
+      <button class="menuToggle" id="menuToggle" aria-label="Toggle Navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="navWrapper">
+        <div class="navLinks">
+          <a href="#" class="navItem active">About</a>
+          <a href="#technicalSkills" class="navItem">Skills</a>
+          <a href="#selectedProjects" class="navItem">Projects</a>
+          <a href="#workTimeline" class="navItem">Timeline</a>
+          <a href="#honorsRecognitions" class="navItem">Honors</a>
+          <!-- <a href="#getInTouch" class="navItem">Contact</a> -->
+          <a
+            href="https://www.dicoding.com/users/ansyahmf/academies"
+            target="_blank"
+            class="dicoding"
+            >Dicoding</a
+          >
         </div>
 
-        <button class="menuToggle" id="menuToggle" aria-label="Toggle Navigation">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-
-        <div class="navWrapper">
-            <div class="navLinks">
-                <a href="#" class="navItem active">About</a>
-                <a href="#technicalSkills" class="navItem">Skills</a>
-                <a href="#selectedProjects" class="navItem">Projects</a>
-                <a href="#workTimeline" class="navItem">Timeline</a>
-                <a href="#honorsRecognitions" class="navItem">Honors</a>
-                <!-- <a href="#getInTouch" class="navItem">Contact</a> -->
-                <a href="https://www.dicoding.com/users/ansyahmf/academies" target="_blank" class="dicoding">Dicoding</a>
-            </div>
-    
-            <div class="arrButton">
-                <a href="mailto:firdiansyahmf.04@gmail.com" target="_blank">HIRE ME</a>
-                <div class="arrow">→</div>
-            </div>
+        <div class="arrButton">
+          <a href="mailto:firdiansyahmf.04@gmail.com" target="_blank"
+            >HIRE ME</a
+          >
+          <div class="arrow">→</div>
         </div>
+      </div>
     </nav>
 
     <header id="heroContain">
-        <div class="breakpointForDesktop reveal">
-            <div id="hero"> <!-- line -->
-                <div class="subBreakpoint">
-                    <div class="box1 reveal">
-                    <div class="textContain">
-                        <h1>SOFTWARE <br> <span class="gradientText">ENGINEER</span> <br> & CREATOR</h1>
-    
-                        <p class="reveal">Adaptable Software Engineer at UPI (GPA 3.8/4.0). Flutter, web & CMS. KSE Scholar 2026, 5× award winner, and active organisational leader across engineering and strategic tracks.</p>
-    
-                        <div  class="reveal">
-                            <div class="arrButton">
-                                <a href="#workTimeline">VIEW TIMELINE</a>
-                                <div class="arrow">→</div>
-                            </div>
-    
-                            <div class="arrButton solid">
-                                <a href="#honorsRecognitions">MY HONORS</a>
-                                <div class="arrow">→</div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <aside>
-                        <div class="myPhoto reveal" role="img" aria-label="Mohamad Firdiansyah photo"></div>
-                    </aside>
+      <div class="breakpointForDesktop reveal">
+        <div id="hero">
+          <!-- line -->
+          <div class="subBreakpoint">
+            <div class="box1 reveal">
+              <div class="textContain">
+                <h1>
+                  SOFTWARE <br />
+                  <span class="gradientText">ENGINEER</span> <br />
+                  & CREATOR
+                </h1>
+
+                <p class="reveal">
+                  Adaptable Software Engineer at UPI (GPA 3.8/4.0). Flutter, web
+                  & CMS. KSE Scholar 2026, 5× award winner, and active
+                  organisational leader across engineering and strategic tracks.
+                </p>
+
+                <div class="reveal">
+                  <div class="arrButton">
+                    <a href="#workTimeline">VIEW TIMELINE</a>
+                    <div class="arrow">→</div>
+                  </div>
+
+                  <div class="arrButton solid">
+                    <a href="#honorsRecognitions">MY HONORS</a>
+                    <div class="arrow">→</div>
+                  </div>
                 </div>
-    
-                <div class="box2 reveal">
-                    <section>
-                        <div class="titleBoxHiglight">3.8</div>
-                        <div class="spaceMono st">GPA / 4.0</div>
-                        <div class="spaceMono nd">Universitas Pendidikan Indonesia</div>
-                    </section>
-    
-                    <section>
-                        <div class="titleBoxHiglight">5+</div>
-                        <div class="spaceMono st">AWARDS NOW</div>
-                        <div class="spaceMono nd">National & International</div>
-                    </section>
-    
-                    <section>
-                        <div class="titleBoxHiglight">100%</div>
-                        <div class="spaceMono st">MOBILE SCORE</div>
-                        <div class="spaceMono nd">Lighthouse performance</div>
-                    </section>
-    
-                    <section class="highlight">
-                        <div class="titleBoxHiglight">2026</div>
-                        <div class="spaceMono st">KSE SCHOLAR</div>
-                        <div class="spaceMono nd">Karya Salemba Empat</div>
-                    </section>
-                </div>
-                </div>
-    
-                <!-- RECT -->
-                <div class="rectangle R reveal" aria-hidden="true"></div>
-                <div class="rectangle L reveal" aria-hidden="true"></div>
-                <div class="rectangle TR reveal" aria-hidden="true"></div>
-                <div class="rectangle TL reveal" aria-hidden="true"></div>
+              </div>
+
+              <aside>
+                <div
+                  class="myPhoto reveal"
+                  role="img"
+                  aria-label="Mohamad Firdiansyah photo"
+                ></div>
+              </aside>
             </div>
+
+            <div class="box2 reveal">
+              <section>
+                <div class="titleBoxHiglight">3.8</div>
+                <div class="spaceMono st">GPA / 4.0</div>
+                <div class="spaceMono nd">Universitas Pendidikan Indonesia</div>
+              </section>
+
+              <section>
+                <div class="titleBoxHiglight">5+</div>
+                <div class="spaceMono st">AWARDS NOW</div>
+                <div class="spaceMono nd">National & International</div>
+              </section>
+
+              <section>
+                <div class="titleBoxHiglight">100%</div>
+                <div class="spaceMono st">MOBILE SCORE</div>
+                <div class="spaceMono nd">Lighthouse performance</div>
+              </section>
+
+              <section class="highlight">
+                <div class="titleBoxHiglight">2026</div>
+                <div class="spaceMono st">KSE SCHOLAR</div>
+                <div class="spaceMono nd">Karya Salemba Empat</div>
+              </section>
+            </div>
+          </div>
+
+          <!-- RECT -->
+          <div class="rectangle R reveal" aria-hidden="true"></div>
+          <div class="rectangle L reveal" aria-hidden="true"></div>
+          <div class="rectangle TR reveal" aria-hidden="true"></div>
+          <div class="rectangle TL reveal" aria-hidden="true"></div>
         </div>
-        <div class="cloud" aria-hidden="true"></div>
+      </div>
+      <div class="cloud" aria-hidden="true"></div>
     </header>
 
     <main>
-        <section id="technicalSkills">
-            <div class="subTitle reveal">
-                <div class="number">
-                    <div class="spaceMono">02_</div>
-                    <div class="line"></div>
-                </div>
-                <h2>TECHNICAL SKILLS</h2>
-                <p>Languages, frameworks & tools I work with</p>
-            </div>
+      <section id="technicalSkills">
+        <div class="subTitle reveal">
+          <div class="number">
+            <div class="spaceMono">02_</div>
+            <div class="line"></div>
+          </div>
+          <h2>TECHNICAL SKILLS</h2>
+          <p>Languages, frameworks & tools I work with</p>
+        </div>
 
+        <div class="skillsContain">
+          <div class="skill reveal">Flutter</div>
+          <div class="skill reveal">Dart</div>
+          <div class="skill reveal">Android Dev</div>
+          <div class="skill reveal">HTML</div>
+          <div class="skill reveal">CSS</div>
+          <div class="skill reveal">JavaScript</div>
+          <div class="skill reveal">PHP</div>
+          <div class="skill reveal">WordPress</div>
+          <div class="skill reveal">Elementor</div>
+          <div class="skill reveal">C++</div>
+          <div class="skill reveal">Python</div>
+          <div class="skill reveal">MySQL</div>
+          <div class="skill reveal">REST API</div>
+          <div class="skill reveal">Git</div>
+          <div class="skill reveal">GitHub</div>
+          <div class="skill reveal">Figma</div>
+          <div class="skill reveal">Responsive Design</div>
+          <div class="skill reveal">Inkscape</div>
+          <div class="skill reveal">Canva</div>
+          <div class="skill reveal">Linux</div>
+          <div class="skill reveal">Kali Linux</div>
+        </div>
+      </section>
+
+      <section id="selectedProjects" class="box">
+        <div class="subTitle reveal">
+          <div class="number">
+            <div class="spaceMono">03_</div>
+            <div class="line"></div>
+          </div>
+          <h2>SELECTED PROJECTS</h2>
+          <p>Delivered work with real impact</p>
+        </div>
+
+        <div class="spaceMono swipe reveal">// SWIPE HORIZONTALLY →</div>
+
+        <div class="disGrid">
+          <article class="cardItem reveal">
+            <div class="spaceMono">Jan 2026 – Present</div>
+            <h3 class="titleProject">PERSLIMA Web Ecosystem</h3>
+            <p>
+              Primary technical lead for perslima.com, magang.perslima.com, and
+              lms.perslima.com — ensuring 100% uptime, WordPress development,
+              hosting config, and social media integration.
+            </p>
             <div class="skillsContain">
-                <div class="skill reveal">Flutter</div>
-                <div class="skill reveal">Dart</div>
-                <div class="skill reveal">Android Dev</div>
-                <div class="skill reveal">HTML</div>
-                <div class="skill reveal">CSS</div>
-                <div class="skill reveal">JavaScript</div>
-                <div class="skill reveal">PHP</div>
-                <div class="skill reveal">WordPress</div>
-                <div class="skill reveal">Elementor</div>
-                <div class="skill reveal">C++</div>
-                <div class="skill reveal">Python</div>
-                <div class="skill reveal">MySQL</div>
-                <div class="skill reveal">REST API</div>
-                <div class="skill reveal">Git</div>
-                <div class="skill reveal">GitHub</div>
-                <div class="skill reveal">Figma</div>
-                <div class="skill reveal">Responsive Design</div>
-                <div class="skill reveal">Inkscape</div>
-                <div class="skill reveal">Canva</div>
-                <div class="skill reveal">Linux</div>
-                <div class="skill reveal">Kali Linux</div>
-            </div>
-        </section>
-
-        <section id="selectedProjects" class="box">
-            <div class="subTitle reveal">
-                <div class="number">
-                    <div class="spaceMono">03_</div>
-                    <div class="line"></div>
-                </div>
-                <h2>SELECTED PROJECTS</h2>
-                <p>Delivered work with real impact</p>
+              <div class="skill">WORDPRESS</div>
+              <div class="skill">ELEMENTOR</div>
+              <div class="skill">PHP</div>
+              <div class="skill">DNS</div>
             </div>
 
-            <div class="spaceMono swipe reveal">// SWIPE HORIZONTALLY →</div>
+            <!-- RECT -->
+            <div class="rectangle TR" aria-hidden="true"></div>
+            <div class="rectangle TL" aria-hidden="true"></div>
+            <div class="rectangle R" aria-hidden="true"></div>
+            <div class="rectangle L" aria-hidden="true"></div>
+          </article>
 
-            <div class="disGrid">
-                <article class="cardItem reveal">
-                    <div class="spaceMono">Jan 2026 – Present</div>
-                    <h3 class="titleProject">PERSLIMA Web Ecosystem</h3>
-                    <p>Primary technical lead for perslima.com, magang.perslima.com, and lms.perslima.com — ensuring 100% uptime, WordPress development, hosting config, and social media integration.</p>
-                    <div class="skillsContain">
-                        <div class="skill">WORDPRESS</div>
-                        <div class="skill">ELEMENTOR</div>
-                        <div class="skill">PHP</div>
-                        <div class="skill">DNS</div>
-                    </div>
-
-                    <!-- RECT -->
-                    <div class="rectangle TR" aria-hidden="true"></div>
-                    <div class="rectangle TL" aria-hidden="true"></div>
-                    <div class="rectangle R" aria-hidden="true"></div>
-                    <div class="rectangle L" aria-hidden="true"></div>
-                </article>
-                
-                <article class="cardItem reveal">
-                    <div class="spaceMono">Sep - Dec 2025</div>
-                    <h3 class="titleProject">RupaRaya</h3>
-                    <p>Led a 6-member team building a smart tourism app with AI Matchmaking — connecting tourists to local guides by MBTI & location. Full SDLC, ISO-standard SRS docs, high-fidelity Figma prototypes. Grade A (4.0/4.0).</p>
-                    <div class="skillsContain">
-                        <div class="skill">FLUTTER</div>
-                        <div class="skill">FIGMA</div>
-                        <div class="skill">AI LOGIC</div>
-                        <div class="skill">TEAM LEAD</div>
-                    </div>
-
-                    <!-- RECT -->
-                    <div class="rectangle TR" aria-hidden="true"></div>
-                    <div class="rectangle TL" aria-hidden="true"></div>
-                    <div class="rectangle R" aria-hidden="true"></div>
-                    <div class="rectangle L" aria-hidden="true"></div>
-                </article>
-
-                <article class="cardItem reveal">
-                    <div class="spaceMono">Sep – Nov 2024</div>
-                    <h3 class="titleProject">PAPAYA.JT Web</h3>
-                    <p>End-to-end delivery of a custom WordPress nutritional platform for Universitas Padjadjaran stakeholders. Information architecture strategy achieved 100% client satisfaction on design & usability.</p>
-                    <div class="skillsContain">
-                        <div class="skill">WORDPRESS</div>
-                        <div class="skill">CMS</div>
-                        <div class="skill">UX</div>
-                        <div class="skill">UNPAD</div>
-                    </div>
-
-                    <!-- RECT -->
-                    <div class="rectangle TR" aria-hidden="true"></div>
-                    <div class="rectangle TL" aria-hidden="true"></div>
-                    <div class="rectangle R" aria-hidden="true"></div>
-                    <div class="rectangle L" aria-hidden="true"></div>
-                </article>
+          <article class="cardItem reveal">
+            <div class="spaceMono">Sep - Dec 2025</div>
+            <h3 class="titleProject">RupaRaya</h3>
+            <p>
+              Led a 6-member team building a smart tourism app with AI
+              Matchmaking — connecting tourists to local guides by MBTI &
+              location. Full SDLC, ISO-standard SRS docs, high-fidelity Figma
+              prototypes. Grade A (4.0/4.0).
+            </p>
+            <div class="skillsContain">
+              <div class="skill">FLUTTER</div>
+              <div class="skill">FIGMA</div>
+              <div class="skill">AI LOGIC</div>
+              <div class="skill">TEAM LEAD</div>
             </div>
-        </section>
-        
-        <section id="workTimeline">
-            <div class="subTitle reveal">
-                <div class="number">
-                    <div class="spaceMono">04_</div>
-                    <div class="line"></div>
-                </div>
-                <h2>WORK & ORG TIMELINE</h2>
-                <p>Reverse-chronological · Engineering & Strategic Leadership dual-track</p>
-            </div>
-            
-            <div class="category rveeal">
-                <div class="categoryItem">
-                    <div class="circle"></div>
-                    <div class="spaceMono">ENGINEERING</div>
-                </div>
-                <div class="categoryItem">
-                    <div class="circle"></div>
-                    <div class="spaceMono">LEADERSHIP</div>
-                </div>
-                <div class="categoryItem">
-                    <div class="circle"></div>
-                    <div class="spaceMono">COMMUNITY</div>
-                </div>
-            </div>
-            
-            <article class="cardItem reveal community">
-                <div class="note">
-                    <div class="spaceMono">2026 - Present</div>
-                    <div class="spaceMono c">COMMUNITY</div>
-                </div>
-                <div class="skill">SCHOLARSHIP & COMMUNITY</div>
-                <div class="title">
-                    <h3 class="titleProject">Active Scholar / Beswan KSE</h3>
-                    <div class="spaceMono c">Paguyuban KSE UPI (Karya Salemba Empat)</div>
-                </div>
-                <p>Participating in social community initiatives, leadership capacity-building programs, and
-                    institutional collaboration as a KSE scholarship recipient.</p>
-            </article>
 
+            <!-- RECT -->
+            <div class="rectangle TR" aria-hidden="true"></div>
+            <div class="rectangle TL" aria-hidden="true"></div>
+            <div class="rectangle R" aria-hidden="true"></div>
+            <div class="rectangle L" aria-hidden="true"></div>
+          </article>
+
+          <article class="cardItem reveal">
+            <div class="spaceMono">Sep – Nov 2024</div>
+            <h3 class="titleProject">PAPAYA.JT Web</h3>
+            <p>
+              End-to-end delivery of a custom WordPress nutritional platform for
+              Universitas Padjadjaran stakeholders. Information architecture
+              strategy achieved 100% client satisfaction on design & usability.
+            </p>
+            <div class="skillsContain">
+              <div class="skill">WORDPRESS</div>
+              <div class="skill">CMS</div>
+              <div class="skill">UX</div>
+              <div class="skill">UNPAD</div>
+            </div>
+
+            <!-- RECT -->
+            <div class="rectangle TR" aria-hidden="true"></div>
+            <div class="rectangle TL" aria-hidden="true"></div>
+            <div class="rectangle R" aria-hidden="true"></div>
+            <div class="rectangle L" aria-hidden="true"></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="workTimeline">
+        <div class="subTitle reveal">
+          <div class="number">
+            <div class="spaceMono">04_</div>
+            <div class="line"></div>
+          </div>
+          <h2>WORK & ORG TIMELINE</h2>
+          <p>
+            Reverse-chronological · Engineering & Strategic Leadership
+            dual-track
+          </p>
+        </div>
+
+        <div class="category rveeal">
+          <div class="categoryItem">
+            <div class="circle"></div>
+            <div class="spaceMono">ENGINEERING</div>
+          </div>
+          <div class="categoryItem">
+            <div class="circle"></div>
+            <div class="spaceMono">LEADERSHIP</div>
+          </div>
+          <div class="categoryItem">
+            <div class="circle"></div>
+            <div class="spaceMono">COMMUNITY</div>
+          </div>
+        </div>
+
+        <article class="cardItem reveal community">
+          <div class="note">
+            <div class="spaceMono">2026 - Present</div>
+            <div class="spaceMono c">COMMUNITY</div>
+          </div>
+          <div class="skill">SCHOLARSHIP & COMMUNITY</div>
+          <div class="title">
+            <h3 class="titleProject">Active Scholar / Beswan KSE</h3>
+            <div class="spaceMono c">
+              Paguyuban KSE UPI (Karya Salemba Empat)
+            </div>
+          </div>
+          <p>
+            Participating in social community initiatives, leadership
+            capacity-building programs, and institutional collaboration as a KSE
+            scholarship recipient.
+          </p>
+        </article>
+
+        <article class="cardItem reveal leadership">
+          <div class="note">
+            <div class="spaceMono">2020 - Present</div>
+            <div class="spaceMono c">LEADERSHIP</div>
+          </div>
+          <div class="skill">BUSINESS & ECOSYSTEM DEV</div>
+          <div class="title">
+            <h3 class="titleProject">Staff of Business Development</h3>
+            <div class="spaceMono c">HIPMI PT UPI Cibiru</div>
+          </div>
+          <p>
+            Exploring new business opportunities, developing entrepreneurial
+            strategies, and executing cross-functional projects to grow the
+            campus business ecosystem.
+          </p>
+        </article>
+
+        <article class="cardItem reveal engineering">
+          <div class="note">
+            <div class="spaceMono">Jan 2026 – Present</div>
+            <div class="spaceMono c">ENGINEERING</div>
+          </div>
+          <div class="skill">TECH LEAD & PR STRATEGY</div>
+          <div class="title">
+            <h3 class="titleProject">
+              Head of Public Relations, Corporate Affairs Division
+            </h3>
+            <div class="spaceMono c">PERSLIMA UPI</div>
+          </div>
+          <p>
+            Technical lead for the organization's full domain network —
+            perslima.com, magang.perslima.com, and lms.perslima.com — ensuring
+            100% uptime. Directs digital communication strategy and end-to-end
+            social media publication workflow.
+          </p>
+        </article>
+
+        <article class="cardItem reveal leadership">
+          <div class="note">
+            <div class="spaceMono">Feb 2025 – Dec 2025</div>
+            <div class="spaceMono c">LEADERSHIP</div>
+          </div>
+          <div class="skill">DEPARTMENT LEADERSHIP</div>
+          <div class="title">
+            <h3 class="titleProject">
+              Vice Head of Personal Development Department
+            </h3>
+            <div class="spaceMono c">HIMARPL UPI</div>
+          </div>
+          <p>
+            Oversaw department operations facilitating student interests in tech
+            and non-academic fields. Spearheaded the Digital Innovation
+            Competition, Esports Funmatch, educational podcasts, workshops, and
+            scholarship information dissemination.
+          </p>
+        </article>
+
+        <article class="cardItem reveal engineering">
+          <div class="note">
+            <div class="spaceMono">Oct 2023 – Mar 2024</div>
+            <div class="spaceMono c">ENGINEERING</div>
+          </div>
+          <div class="skill">WEB ENGINEERING</div>
+          <div class="title">
+            <h3 class="titleProject">Software Engineer Intern</h3>
+            <div class="spaceMono c">Soca AI</div>
+          </div>
+          <p>
+            Spearheaded end-to-end development of Soca AI's landing page using
+            WordPress & Elementor. Engineered custom HTML/CSS/JS optimizations
+            achieving 100% mobile responsiveness and cross-browser
+            compatibility.
+          </p>
+        </article>
+      </section>
+
+      <section id="honorsRecognitions" class="box">
+        <div class="subTitle reveal">
+          <div class="number">
+            <div class="spaceMono">05_</div>
+            <div class="line"></div>
+          </div>
+          <h2>HONORS & RECOGNITIONS</h2>
+          <p>Competitions · Leadership · Academic excellence</p>
+        </div>
+
+        <div class="disFlex">
+          <article class="cardItem reveal leadershipvp">
+            <div class="skill">★ Prestigious Scholarship</div>
+            <div class="spaceMono c">AWARDEE YEAR <b>2026</b></div>
+            <h3 class="titleProject">
+              🎓 Karya Salemba Empat (KSE) Scholarship Awardee
+            </h3>
+            <hr />
+            <p>Yayasan Karya Salemba Empat</p>
+
+            <!-- RECT -->
+            <div class="rectangle TR" aria-hidden="true"></div>
+            <div class="rectangle TL" aria-hidden="true"></div>
+            <div class="rectangle R" aria-hidden="true"></div>
+            <div class="rectangle L" aria-hidden="true"></div>
+          </article>
+
+          <div class="spaceMono swipe reveal">// SWIPE HORIZONTALLY →</div>
+
+          <div class="disGrid">
             <article class="cardItem reveal leadership">
-                <div class="note">
-                    <div class="spaceMono">2020 - Present</div>
-                    <div class="spaceMono c">LEADERSHIP</div>
-                </div>
-                <div class="skill">BUSINESS & ECOSYSTEM DEV</div>
-                <div class="title">
-                    <h3 class="titleProject">Staff of Business Development</h3>
-                    <div class="spaceMono c">HIPMI PT UPI Cibiru</div>
-                </div>
-                <p>Exploring new business opportunities, developing entrepreneurial strategies, and executing cross-functional projects to grow the campus business ecosystem.</p>
+              <div class="spaceMono c">Dec 2025</div>
+              <h3 class="titleProject">
+                🏅 Best Executive of Self-Development Department
+              </h3>
+              <hr />
+              <p>HIMARPL UPI — Devoria Cabinet</p>
+
+              <!-- RECT -->
+              <div class="rectangle TR" aria-hidden="true"></div>
+              <div class="rectangle TL" aria-hidden="true"></div>
+              <div class="rectangle R" aria-hidden="true"></div>
+              <div class="rectangle L" aria-hidden="true"></div>
             </article>
 
             <article class="cardItem reveal engineering">
-                <div class="note">
-                    <div class="spaceMono">Jan 2026 – Present</div>
-                    <div class="spaceMono c">ENGINEERING</div>
-                </div>
-                <div class="skill">TECH LEAD & PR STRATEGY</div>
-                <div class="title">
-                    <h3 class="titleProject">Head of Public Relations, Corporate Affairs Division</h3>
-                    <div class="spaceMono c">PERSLIMA UPI</div>
-                </div>
-                <p>Technical lead for the organization's full domain network — perslima.com, magang.perslima.com, and lms.perslima.com — ensuring 100% uptime. Directs digital communication strategy and end-to-end social media publication workflow.</p>
+              <div class="spaceMono c">Oct 2025</div>
+              <h3 class="titleProject">🎨 Favorite Winner in UI/UX Design</h3>
+              <hr />
+              <p>Portal 7 International Competition, IPB University</p>
+
+              <!-- RECT -->
+              <div class="rectangle TR" aria-hidden="true"></div>
+              <div class="rectangle TL" aria-hidden="true"></div>
+              <div class="rectangle R" aria-hidden="true"></div>
+              <div class="rectangle L" aria-hidden="true"></div>
             </article>
 
             <article class="cardItem reveal leadership">
-                <div class="note">
-                    <div class="spaceMono">Feb 2025 – Dec 2025</div>
-                    <div class="spaceMono c">LEADERSHIP</div>
-                </div>
-                <div class="skill">DEPARTMENT LEADERSHIP</div>
-                <div class="title">
-                    <h3 class="titleProject">Vice Head of Personal Development Department</h3>
-                    <div class="spaceMono c">HIMARPL UPI</div>
-                </div>
-                <p>Oversaw department operations facilitating student interests in tech and non-academic fields. Spearheaded the Digital Innovation Competition, Esports Funmatch, educational podcasts, workshops, and scholarship information dissemination.</p>
+              <div class="spaceMono c">Jun 2025</div>
+              <h3 class="titleProject">✨ Most Inspiring Intern Award</h3>
+              <hr />
+              <p>PERSLIMA UPI</p>
+
+              <!-- RECT -->
+              <div class="rectangle TR" aria-hidden="true"></div>
+              <div class="rectangle TL" aria-hidden="true"></div>
+              <div class="rectangle R" aria-hidden="true"></div>
+              <div class="rectangle L" aria-hidden="true"></div>
             </article>
 
-            <article class="cardItem reveal engineering">
-                <div class="note">
-                    <div class="spaceMono">Oct 2023 – Mar 2024</div>
-                    <div class="spaceMono c">ENGINEERING</div>
-                </div>
-                <div class="skill">WEB ENGINEERING</div>
-                <div class="title">
-                    <h3 class="titleProject">Software Engineer Intern</h3>
-                    <div class="spaceMono c">Soca AI</div>
-                </div>
-                <p>Spearheaded end-to-end development of Soca AI's landing page using WordPress & Elementor. Engineered custom HTML/CSS/JS optimizations achieving 100% mobile responsiveness and cross-browser compatibility.</p>
+            <article class="cardItem reveal gold">
+              <div class="spaceMono c">Oct 2024</div>
+              <h3 class="titleProject">
+                🥇 1st Place, MOKA-KU Essay Competition
+              </h3>
+              <hr />
+              <p>Student Executive Board, UPI Cibiru Campus</p>
+
+              <!-- RECT -->
+              <div class="rectangle TR" aria-hidden="true"></div>
+              <div class="rectangle TL" aria-hidden="true"></div>
+              <div class="rectangle R" aria-hidden="true"></div>
+              <div class="rectangle L" aria-hidden="true"></div>
             </article>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <section id="honorsRecognitions" class="box">
-            <div class="subTitle reveal">
-                <div class="number">
-                    <div class="spaceMono">05_</div>
-                    <div class="line"></div>
-                </div>
-                <h2>HONORS & RECOGNITIONS</h2>
-                <p>Competitions · Leadership · Academic excellence</p>
+      <section id="getInTouch" class="box">
+        <div class="subTitle reveal">
+          <div class="number">
+            <div class="spaceMono">06_</div>
+            <div class="line"></div>
+          </div>
+          <h2>Get In Touch</h2>
+          <p>Open to roles, internships & collaborations</p>
+        </div>
+
+        <div class="disFlex">
+          <article class="cardItem reveal getIn">
+            <div class="titleBoxHiglight">
+              <div class="spaceMono c">OPEN TO COLLABORATION</div>
+              <h3 class="titleProject">
+                LET'S BUILD <br />
+                SOMETHING GREAT.
+              </h3>
             </div>
 
-            <div class="disFlex">
-                <article class="cardItem reveal leadershipvp">
-                    <div class="skill">★ Prestigious Scholarship</div>
-                    <div class="spaceMono c">AWARDEE YEAR <b>2026</b></div>
-                    <h3 class="titleProject">🎓 Karya Salemba Empat (KSE) Scholarship Awardee</h3><hr>
-                    <p>Yayasan Karya Salemba Empat</p>
-    
-                    <!-- RECT -->
-                    <div class="rectangle TR" aria-hidden="true"></div>
-                    <div class="rectangle TL" aria-hidden="true"></div>
-                    <div class="rectangle R" aria-hidden="true"></div>
-                    <div class="rectangle L" aria-hidden="true"></div>
-                </article>
-    
-                <div class="spaceMono swipe reveal">// SWIPE HORIZONTALLY →</div>
+            <p>
+              Open to software engineering roles, Flutter/web projects,
+              internships, and campus or community collaborations.
+            </p>
+          </article>
 
-                <div class="disGrid">
-                    <article class="cardItem reveal leadership">
-                        <div class="spaceMono c">Dec 2025</div>
-                        <h3 class="titleProject">🏅 Best Executive of Self-Development Department</h3><hr>
-                        <p>HIMARPL UPI — Devoria Cabinet</p>
-        
-                        <!-- RECT -->
-                        <div class="rectangle TR" aria-hidden="true"></div>
-                        <div class="rectangle TL" aria-hidden="true"></div>
-                        <div class="rectangle R" aria-hidden="true"></div>
-                        <div class="rectangle L" aria-hidden="true"></div>
-                    </article>
-        
-                    <article class="cardItem reveal engineering">
-                        <div class="spaceMono c">Oct 2025</div>
-                        <h3 class="titleProject">🎨 Favorite Winner in UI/UX Design</h3><hr>
-                        <p>Portal 7 International Competition, IPB University</p>
-        
-                        <!-- RECT -->
-                        <div class="rectangle TR" aria-hidden="true"></div>
-                        <div class="rectangle TL" aria-hidden="true"></div>
-                        <div class="rectangle R" aria-hidden="true"></div>
-                        <div class="rectangle L" aria-hidden="true"></div>
-                    </article>
-
-                    <article class="cardItem reveal leadership">
-                        <div class="spaceMono c">Jun 2025</div>
-                        <h3 class="titleProject">✨ Most Inspiring Intern Award</h3><hr>
-                        <p>PERSLIMA UPI</p>
-        
-                        <!-- RECT -->
-                        <div class="rectangle TR" aria-hidden="true"></div>
-                        <div class="rectangle TL" aria-hidden="true"></div>
-                        <div class="rectangle R" aria-hidden="true"></div>
-                        <div class="rectangle L" aria-hidden="true"></div>
-                    </article>
-
-                    <article class="cardItem reveal gold">
-                        <div class="spaceMono c">Oct 2024</div>
-                        <h3 class="titleProject">🥇 1st Place, MOKA-KU Essay Competition</h3><hr>
-                        <p>Student Executive Board, UPI Cibiru Campus</p>
-        
-                        <!-- RECT -->
-                        <div class="rectangle TR" aria-hidden="true"></div>
-                        <div class="rectangle TL" aria-hidden="true"></div>
-                        <div class="rectangle R" aria-hidden="true"></div>
-                        <div class="rectangle L" aria-hidden="true"></div>
-                    </article>
+          <div class="disGrid">
+            <a
+              href="mailto:firdiansyahmf.04@gmail.com"
+              target="_blank"
+              class="cardItem reveal"
+            >
+              <div class="disFlex st">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <path
+                      d="M22 12H16L14 15H10L8 12H2"
+                      stroke="#22D3EE"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M5.45 5.11L2 12V18C2 18.5304 2.21071 19.0391 2.58579 19.4142C2.96086 19.7893 3.46957 20 4 20H20C20.5304 20 21.0391 19.7893 21.4142 19.4142C21.7893 19.0391 22 18.5304 22 18V12L18.55 5.11C18.3844 4.77679 18.1292 4.49637 17.813 4.30028C17.4967 4.10419 17.1321 4.0002 16.76 4H7.24C6.86792 4.0002 6.50326 4.10419 6.18704 4.30028C5.87083 4.49637 5.61558 4.77679 5.45 5.11Z"
+                      stroke="#22D3EE"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
                 </div>
-            </div>
-        </section>
 
-        <section id="getInTouch" class="box">
-            <div class="subTitle reveal">
-                <div class="number">
-                    <div class="spaceMono">06_</div>
-                    <div class="line"></div>
+                <div class="disFlex nd">
+                  <div class="spaceMono c">EMAIL</div>
+                  <h3 class="titleProject">firdiansyahmf.04@gmail.com</h3>
                 </div>
-                <h2>Get In Touch</h2>
-                <p>Open to roles, internships & collaborations</p>
-            </div>
+              </div>
 
-            <div class="disFlex">                
-                <article class="cardItem reveal getIn">
-                    <div class="titleBoxHiglight">
-                        <div class="spaceMono c">OPEN TO COLLABORATION</div>
-                        <h3 class="titleProject">LET'S BUILD <br> SOMETHING GREAT.</h3>
-                    </div>
+              <!-- RECT -->
+              <div class="rectangle TR" aria-hidden="true"></div>
+              <div class="rectangle TL" aria-hidden="true"></div>
+              <div class="rectangle R" aria-hidden="true"></div>
+              <div class="rectangle L" aria-hidden="true"></div>
+            </a>
 
-                    <p>Open to software engineering roles, Flutter/web projects, internships, and campus or community collaborations.</p>
-                </article>
-
-                <div class="disGrid">
-                    <a href="mailto:firdiansyahmf.04@gmail.com" target="_blank" class="cardItem reveal">
-                        <div class="disFlex st">
-                            <div class="icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M22 12H16L14 15H10L8 12H2" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M5.45 5.11L2 12V18C2 18.5304 2.21071 19.0391 2.58579 19.4142C2.96086 19.7893 3.46957 20 4 20H20C20.5304 20 21.0391 19.7893 21.4142 19.4142C21.7893 19.0391 22 18.5304 22 18V12L18.55 5.11C18.3844 4.77679 18.1292 4.49637 17.813 4.30028C17.4967 4.10419 17.1321 4.0002 16.76 4H7.24C6.86792 4.0002 6.50326 4.10419 6.18704 4.30028C5.87083 4.49637 5.61558 4.77679 5.45 5.11Z" stroke="#22D3EE" stroke-width="2"stroke-linecap="round" stroke-linejoin="round"/></svg>
-                            </div>
-                            
-                            <div class="disFlex nd">
-                                <div class="spaceMono c">EMAIL</div>
-                                <h3 class="titleProject">firdiansyahmf.04@gmail.com</h3>
-                            </div>
-                        </div>
-        
-                        <!-- RECT -->
-                        <div class="rectangle TR" aria-hidden="true"></div>
-                        <div class="rectangle TL" aria-hidden="true"></div>
-                        <div class="rectangle R" aria-hidden="true"></div>
-                        <div class="rectangle L" aria-hidden="true"></div>
-                    </a>
-
-                    <a href="linkedin.com/in/firdiansyahmf" target="_blank" class="cardItem reveal">
-                        <div class="disFlex st">
-                            <div class="icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M16 8C17.5913 8 19.1174 8.63214 20.2426 9.75736C21.3679 10.8826 22 12.4087 22 14V21H18V14C18 13.4696 17.7893 12.9609 17.4142 12.5858C17.0391 12.2107 16.5304 12 16 12C15.4696 12 14.9609 12.2107 14.5858 12.5858C14.2107 12.9609 14 13.4696 14 14V21H10V14C10 12.4087 10.6321 10.8826 11.7574 9.75736C12.8826 8.63214 14.4087 8 16 8Z" stroke="#3B5BFD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M6 9H2V21H6V9Z" stroke="#3B5BFD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 6C5.10457 6 6 5.10457 6 4C6 2.89543 5.10457 2 4 2C2.89543 2 2 2.89543 2 4C2 5.10457 2.89543 6 4 6Z" stroke="#3B5BFD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                            </div>
-                            
-                            <div class="disFlex nd">
-                                <div class="spaceMono c">LINKEDIN</div>
-                                <h3 class="titleProject">linkedin.com/in/firdiansyahmf</h3>
-                            </div>
-                        </div>
-        
-                        <!-- RECT -->
-                        <div class="rectangle TR" aria-hidden="true"></div>
-                        <div class="rectangle TL" aria-hidden="true"></div>
-                        <div class="rectangle R" aria-hidden="true"></div>
-                        <div class="rectangle L" aria-hidden="true"></div>
-                    </a>
-
-                    <a href="github.com/firdiansyahmf" target="_blank" class="cardItem reveal">
-                        <div class="disFlex st">
-                            <div class="icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><g clip-path="url(#clip0_164_85)"><path d="M9 18.9999C4 20.4999 4 16.4999 2 15.9999M16 21.9999V18.1299C16.0375 17.6531 15.9731 17.1737 15.811 16.7237C15.6489 16.2737 15.3929 15.8634 15.06 15.5199C18.2 15.1699 21.5 13.9799 21.5 8.51994C21.4997 7.12376 20.9627 5.78114 20 4.76994C20.4559 3.54844 20.4236 2.19829 19.91 0.999938C19.91 0.999938 18.73 0.649938 16 2.47994C13.708 1.85876 11.292 1.85876 9 2.47994C6.27 0.649938 5.09 0.999938 5.09 0.999938C4.57638 2.19829 4.54414 3.54844 5 4.76994C4.03013 5.78864 3.49252 7.1434 3.5 8.54994C3.5 13.9699 6.8 15.1599 9.94 15.5499C9.611 15.8899 9.35726 16.2953 9.19531 16.7399C9.03335 17.1844 8.96681 17.658 9 18.1299V21.9999" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0_164_85"><rect width="24" height="24" fill="white"/></clipPath></defs></svg>
-                            </div>
-                            
-                            <div class="disFlex nd">
-                                <div class="spaceMono c">GITHUB</div>
-                                <h3 class="titleProject">github.com/ansyahmf</h3>
-                            </div>
-                        </div>
-        
-                        <!-- RECT -->
-                        <div class="rectangle TR" aria-hidden="true"></div>
-                        <div class="rectangle TL" aria-hidden="true"></div>
-                        <div class="rectangle R" aria-hidden="true"></div>
-                        <div class="rectangle L" aria-hidden="true"></div>
-                    </a>
+            <a
+              href="linkedin.com/in/firdiansyahmf"
+              target="_blank"
+              class="cardItem reveal"
+            >
+              <div class="disFlex st">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <path
+                      d="M16 8C17.5913 8 19.1174 8.63214 20.2426 9.75736C21.3679 10.8826 22 12.4087 22 14V21H18V14C18 13.4696 17.7893 12.9609 17.4142 12.5858C17.0391 12.2107 16.5304 12 16 12C15.4696 12 14.9609 12.2107 14.5858 12.5858C14.2107 12.9609 14 13.4696 14 14V21H10V14C10 12.4087 10.6321 10.8826 11.7574 9.75736C12.8826 8.63214 14.4087 8 16 8Z"
+                      stroke="#3B5BFD"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M6 9H2V21H6V9Z"
+                      stroke="#3B5BFD"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M4 6C5.10457 6 6 5.10457 6 4C6 2.89543 5.10457 2 4 2C2.89543 2 2 2.89543 2 4C2 5.10457 2.89543 6 4 6Z"
+                      stroke="#3B5BFD"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
                 </div>
-            </div>
-        </section>
+
+                <div class="disFlex nd">
+                  <div class="spaceMono c">LINKEDIN</div>
+                  <h3 class="titleProject">linkedin.com/in/firdiansyahmf</h3>
+                </div>
+              </div>
+
+              <!-- RECT -->
+              <div class="rectangle TR" aria-hidden="true"></div>
+              <div class="rectangle TL" aria-hidden="true"></div>
+              <div class="rectangle R" aria-hidden="true"></div>
+              <div class="rectangle L" aria-hidden="true"></div>
+            </a>
+
+            <a
+              href="github.com/ansyahmf"
+              target="_blank"
+              class="cardItem reveal"
+            >
+              <div class="disFlex st">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <g clip-path="url(#clip0_164_85)">
+                      <path
+                        d="M9 18.9999C4 20.4999 4 16.4999 2 15.9999M16 21.9999V18.1299C16.0375 17.6531 15.9731 17.1737 15.811 16.7237C15.6489 16.2737 15.3929 15.8634 15.06 15.5199C18.2 15.1699 21.5 13.9799 21.5 8.51994C21.4997 7.12376 20.9627 5.78114 20 4.76994C20.4559 3.54844 20.4236 2.19829 19.91 0.999938C19.91 0.999938 18.73 0.649938 16 2.47994C13.708 1.85876 11.292 1.85876 9 2.47994C6.27 0.649938 5.09 0.999938 5.09 0.999938C4.57638 2.19829 4.54414 3.54844 5 4.76994C4.03013 5.78864 3.49252 7.1434 3.5 8.54994C3.5 13.9699 6.8 15.1599 9.94 15.5499C9.611 15.8899 9.35726 16.2953 9.19531 16.7399C9.03335 17.1844 8.96681 17.658 9 18.1299V21.9999"
+                        stroke="#8B5CF6"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_164_85">
+                        <rect width="24" height="24" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+
+                <div class="disFlex nd">
+                  <div class="spaceMono c">GITHUB</div>
+                  <h3 class="titleProject">github.com/ansyahmf</h3>
+                </div>
+              </div>
+
+              <!-- RECT -->
+              <div class="rectangle TR" aria-hidden="true"></div>
+              <div class="rectangle TL" aria-hidden="true"></div>
+              <div class="rectangle R" aria-hidden="true"></div>
+              <div class="rectangle L" aria-hidden="true"></div>
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <footer>
-        &copy; 2026 Mohamad Firdiansyah
-    </footer>
+    <footer>&copy; 2026 Mohamad Firdiansyah</footer>
 
     <!-- JS -->
     <script src="assets/scripts/script.js"></script>
-</body>
-
+  </body>
 </html>
